@@ -8,8 +8,6 @@ This probably won't work for toher models.
 This repo also contains a cli tool 
 and a telegram bot based on this library.
 
-![zte_router](./docs/zte.png)
-
 
 ## Why
 I wanted to get connected devices to 
