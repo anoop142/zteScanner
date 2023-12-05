@@ -8,7 +8,8 @@ This probably won't work for toher models.
 This repo also contains a cli tool 
 and a telegram bot based on this library.
 
-![./docs/zte.png](router)
+![zte_router](./docs/zte.png)
+
 
 ## Why
 I wanted to get connected devices to 
@@ -26,12 +27,11 @@ IP Address, hostname and MAC Address.
 zte-scanner -u <username> -p <password>
 ```
 
-![./docs/cli.png](cli)
+![cli](./docs/cli.png)
 
 ### library
-```go
-
-	scanner := zteScanner.New("http://192.168.1.1", "username", "password")
+```
+    scanner := zteScanner.New("http://192.168.1.1", "username", "password")
     devs, err := scanner.GetDevices()
 
 	if err != nil {
