@@ -53,6 +53,17 @@ zte-scanner -u <username> -p <password>
 
 ```
 
+## Build
+## cli
+```
+make cli/build
+```
+
+## bot
+```
+make bot/build
+```
+
 ## Features
 * gets clients in less than 0.5s
 * Optional Ping scan to check if devices are alive
