@@ -32,6 +32,14 @@ zte-scanner -u <username> -p <password>
 ### library
 ```
     scanner := zteScanner.New("http://192.168.1.1", "username", "password")
+    /*
+    All methods   
+                scanner.GetDevices()
+                scanner.GetDevicesAlive() -> get devices and perform ping scan
+                scanner.GetDevicesForce() -> logout others, login and scan
+                scanner.GetDevicesAliveForce()
+
+    */
     devs, err := scanner.GetDevices()
 
 	if err != nil {
