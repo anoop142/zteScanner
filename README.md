@@ -12,7 +12,7 @@ and a telegram bot based on this library.
 ## Why
 I wanted to get connected devices to 
 my WiFi router as fast as I could.
-Scanning tools like arp-scanner, nmap etc..
+RTools like arp-scanner, nmap 
 took sometime and was hit or miss.
 
 This library basically scraps ZTE dashboard and
