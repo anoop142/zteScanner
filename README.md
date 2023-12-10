@@ -20,15 +20,22 @@ extract the connected devices, along with their
 IP Address, hostname and MAC Address.
 
 ## Usage
-### cli
-```
+### Cli
+```bash
 zte-scanner -u <username> -p <password>
 ```
+### Bot
+
+```bash
+zte-scanner-bot -db <sqlite db path> -u <router username> -p <router password>
+
+```
+
 
 ![cli](./docs/cli.png)
 
 ### library
-```
+```go
     scanner := zteScanner.New("http://192.168.1.1", "username", "password")
     /*
     All methods   
@@ -55,12 +62,12 @@ zte-scanner -u <username> -p <password>
 
 ## Build
 ## cli
-```
+```bash
 make cli/build
 ```
 
 ## bot
-```
+```bash
 make bot/build
 ```
 
