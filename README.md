@@ -19,12 +19,16 @@ This library basically scraps ZTE dashboard and
 extract the connected devices, along with their
 IP Address, hostname and MAC Address.
 
+
 ## Usage
 ### Cli
+[cli](./cmd/cli)
+
 ```bash
 zte-scanner -u <username> -p <password>
 ```
 ### Bot
+[bot](./cmd/bot)
 
 ```bash
 zte-scanner-bot -db <sqlite db path> -u <router username> -p <router password>
@@ -61,12 +65,12 @@ zte-scanner-bot -db <sqlite db path> -u <router username> -p <router password>
 ```
 
 ## Build
-## cli
+### cli
 ```bash
 make cli/build
 ```
 
-## bot
+### bot
 ```bash
 make bot/build
 ```
