@@ -27,6 +27,10 @@ IP Address, hostname and MAC Address.
 ```bash
 zte-scanner -u <username> -p <password>
 ```
+
+![cli](./docs/cli.png)
+
+
 ### Bot
 [bot](./cmd/bot)
 
@@ -34,9 +38,7 @@ zte-scanner -u <username> -p <password>
 zte-scanner-bot -db <sqlite db path> -u <router username> -p <router password>
 
 ```
-
-
-![cli](./docs/cli.png)
+![bot](./docs/tg_bot_lowres.jpg)
 
 ### library
 ```go
